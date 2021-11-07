@@ -4,6 +4,7 @@ export const API = axios.create({
 	baseURL: 'http://api.ogak.onlinecamp.id/api/v1'
 });
 
+
 // Alter defaults after instance has been created
 export const setAuthToken = (token) => {
 	if (token) {
