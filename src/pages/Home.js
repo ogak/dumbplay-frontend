@@ -41,7 +41,7 @@ const Home = ({
 		<div>
 			<HeroImage />
 			<CardGrid
-				title="Dengarkan dan Rasakan"
+				title="Helo Musik"
 				films={musicAll}
 				setPlayIndex={setPlayIndex}
 				playIndex={playIndex}

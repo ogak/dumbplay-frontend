@@ -1,13 +1,13 @@
-version: '3.7'
+version: '3.9'
 services:
  frontend-dumbplay:
    container_name: frontend-dumbplay
-   image: frontend:latest
+   image: ogak/dumbsound:1.1
    stdin_open: true
    ports:
-     - 4000:3000
+     - 3000:3000
  backend-dumbplay:
    container_name: backend-dumbplay
-   image: backend:latest
+   image: ogak/backendsound:1.3
    ports:
-     - 6000:5000
+     - 5000:5000
